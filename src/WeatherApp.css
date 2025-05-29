@@ -1,0 +1,22 @@
+.weather-app {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;          /* full viewport height */
+  display: flex;              /* enable flexbox */
+  flex-direction: column;     /* stack children vertically */
+  justify-content: center;    /* center vertically */
+  align-items: center;        /* center horizontally */
+  box-sizing: border-box;
+}
+
+.weather-chart {
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  box-sizing: border-box;
+}
